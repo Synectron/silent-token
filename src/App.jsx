@@ -6,7 +6,7 @@ import api from "./axiosconfig";
 
 function App() {
   useEffect(() => {
-    //sample usae
+    //sample usage
     const apiCall = async () => {
       const res = await api.post("url");
     };
